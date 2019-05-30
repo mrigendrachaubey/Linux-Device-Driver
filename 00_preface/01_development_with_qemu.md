@@ -259,6 +259,10 @@ environment.
 
    Press `<C-A> x` to terminate QEMU.
 
+# if you get No such device tty2, tty3, tty4 run this on qemu console
+ ln -sf /dev/null /dev/tty2
+ ln -sf /dev/null /dev/tty3
+ ln -sf /dev/null /dev/tty4
 # Enjoy the happy life with QEMU
 
 ---
